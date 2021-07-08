@@ -1,0 +1,37 @@
+vi:
+  static_pages:
+    home:
+      title:  'Trang chủ'
+      link: 
+      content_html:  '<p>
+                  Đây là trang chủ của <a href="https://www.railstutorial.org/"> Hướng dẫn về Ruby on Rails </a> ứng dụng mẫu.
+                </p>'
+      signup: 'Đăng ký ngay!'
+    about:
+      title:  'Giới thiệu'
+      content_html:   '<p>
+                          <a href="https://www.railstutorial.org/"><em>Hướng dẫn về Ruby on Rails
+                          </em></a>, một phần của
+                          <a href="https://www.learnenough.com/">Learn Enough</a> , Đây là một
+                          <a href="https://www.railstutorial.org/book">book</a> và
+                          <a href="https://screencasts.railstutorial.org/">screencast series</a>
+                          dạy phát triển web với
+                          <a href="https://rubyonrails.org/">Ruby on Rails</a>.
+                          Đây là ứng dụng mẫu cho hướng dẫn.                          
+                      </p>'
+    help:
+      title: 'Trợ giúp'
+      content_html:   '<p>
+                        Nhận trợ giúp về Hướng dẫn Ruby on Rails tại
+                        <a href="https://www.railstutorial.org/help">Rails Tutorial Help page</a>.
+                        Để nhận trợ giúp về ứng dụng mẫu này, hãy xem
+                        <a href="https://www.railstutorial.org/book"><em>Ruby on Rails Tutorial</em>
+                        book</a>.
+                      </p>'
+    contact:
+      title:  'Liên hệ'
+      content_html: '<p>
+                      Liên hệ với Hướng dẫn Ruby on Rails về ứng dụng mẫu tại
+                      <a href="https://www.railstutorial.org/contact">contact page</a>.
+                    </p>'
+    
