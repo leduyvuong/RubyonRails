@@ -25,6 +25,7 @@ gem "jbuilder", "~> 2.7"
 # Use Active Storage variant
 # gem "image_processing", "~> 1.2"
 gem "i18n", "~> 1.8", ">= 1.8.10"
+gem 'rails-i18n', '~> 6.0'
 # Reduces boot times through caching; required in config/boot.rb
 gem "bootsnap", ">= 1.4.4", require: false
 
@@ -38,7 +39,9 @@ group :development do
   gem "web-console", ">= 4.1.0"
   # Display performance information such as SQL time and flame graphs for each request in your browser.
   # Can be configured to work on production as well see: https://github.com/MiniProfiler/rack-mini-profiler/blob/master/README.md
-  
+  gem 'spring', '~> 2.1', '>= 2.1.1'
+  gem 'listen', '~> 3.5', '>= 3.5.1'
+  gem 'spring-watcher-listen', '~> 2.0', '>= 2.0.1'
   gem "rack-mini-profiler", "~> 2.0"
   
 
