@@ -37,3 +37,12 @@ en:
                       Contact the Ruby on Rails Tutorial about the sample app at the
                       <a href="https://www.railstutorial.org/contact">contact page</a>.
                     </p>'
+  users:
+    signup:
+      title:  'Sign Up'
+      name: 'Name:'
+      mail: 'Email:'
+      password: 'Password:'
+      password_confirmation:  'Password Confirmation:'
+      submit: 'Create my account'
+      
