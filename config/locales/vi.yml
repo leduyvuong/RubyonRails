@@ -1,4 +1,13 @@
 vi:
+  layout:
+    header:
+      home: 'Trang chủ'
+      help: 'Trợ giúp'
+      login:  'Đăng nhập'
+    footer:
+      about:  'Giới thiệu'
+      contact:  'Liên hệ'
+      news: 'Tin tức'
   static_pages:
     home:
       title:  'Trang chủ'
@@ -43,4 +52,8 @@ vi:
       password_confirmation:  'Xác nhận mật khẩu:'
       submit: 'Tạo tài khoản'
       wellcome: 'Chào mừng đến với Sample App'
+    login:
+        title:  'Đăng nhập'
+        newuser:  'Bạn chưa có tài khoản?'
+        signup: 'Đăng ký ngay!'
     

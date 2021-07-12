@@ -1,4 +1,13 @@
 en:
+  layout:
+    header:
+      home: 'Home'
+      help: 'Help'
+      login:  'Log In'
+    footer:
+      about:  'About'
+      contact:  'Contact'
+      news: 'News'
   static_pages:
     home:
       title:  'Home'
@@ -45,4 +54,8 @@ en:
       password: 'Password:'
       password_confirmation:  'Password Confirmation:'
       submit: 'Create my account'
+    login:
+        title:  'Log In'
+        newuser:  'New user?'
+        signup: 'Sign up now!'
       
