@@ -4,6 +4,10 @@ vi:
       home: 'Trang chủ'
       help: 'Trợ giúp'
       login:  'Đăng nhập'
+      account:  'Tài khoản'
+      profile:  'Hồ sơ'
+      settings: 'Cài đặt'
+      logout: 'Đăng xuất'
     footer:
       about:  'Giới thiệu'
       contact:  'Liên hệ'

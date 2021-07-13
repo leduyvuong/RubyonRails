@@ -4,6 +4,10 @@ en:
       home: 'Home'
       help: 'Help'
       login:  'Log In'
+      account:  'Account'
+      profile:  'Profile'
+      settings: 'Settings'
+      logout: 'Log out'
     footer:
       about:  'About'
       contact:  'Contact'
