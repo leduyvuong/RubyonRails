@@ -10,12 +10,14 @@
 #   https://dev.mysql.com/doc/refman/5.7/en/password-hashing.html
 #
 default: &default
-  adapter: mysql2
-  encoding: utf8mb4
+  adapter: postgresql
+  encoding: unicode
+  # For details on connection pooling, see Rails configuration guide
+  # https://guides.rubyonrails.org/configuring.html#database-pooling
   pool: <%= ENV.fetch("RAILS_MAX_THREADS") { 5 } %>
-  username: vuong1
-  password: 123456
-  host: localhost
+  database: dd3qv6pa6kfv9g
+  username: owsnvwtlgiwere
+  password: 5432
 
 development:
   <<: *default
@@ -49,7 +51,7 @@ test:
 # for a full overview on how database connection configuration can be specified.
 production:
   adapter: postgresql
-  encoding: utf8
+  encoding: unicode
   # For details on connection pooling, see Rails configuration guide
   # https://guides.rubyonrails.org/configuring.html#database-pooling
   pool: <%= ENV.fetch("RAILS_MAX_THREADS") { 5 } %>
