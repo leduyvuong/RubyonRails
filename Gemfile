@@ -5,6 +5,7 @@ ruby "2.6.7"
 
 gem "rails", "~> 6.1.4"
 gem "mysql2", "~> 0.5"
+gem 'faker', '~> 2.18'
 gem "puma", "~> 5.0"
 gem 'bcrypt', '~> 3.1', '>= 3.1.16'
 gem "sass-rails", ">= 6"
@@ -15,6 +16,8 @@ gem "jbuilder", "~> 2.7"
 gem "bootsnap", ">= 1.4.4", require: false
 gem "i18n", "~> 1.8", ">= 1.8.10"
 gem "rails-i18n", "~> 6.0"
+gem 'will_paginate', '~> 3.3'
+gem 'bootstrap-will_paginate', '~> 1.0'
 group :development, :test do
   gem "byebug", platforms: [:mri, :mingw, :x64_mingw]
 end

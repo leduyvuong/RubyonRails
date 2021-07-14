@@ -62,4 +62,16 @@ en:
         title:  'Log In'
         newuser:  'New user?'
         signup: 'Sign up now!'
-      
+    edit:
+        title:  'Edit user'
+        topic:  'Update your profile'
+        name: 'Name:'
+        mail: 'Email:'
+        password: 'Password:'
+        password_confirmation:  'Password Confirmation:'
+        save: 'Save changes'
+        change: 'Change'
+  shared:
+    error_messages:
+        contains: 'The form contains'
+        error:  'error'

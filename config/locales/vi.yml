@@ -60,4 +60,17 @@ vi:
         title:  'Đăng nhập'
         newuser:  'Bạn chưa có tài khoản?'
         signup: 'Đăng ký ngay!'
+    edit:
+        title:  'Chỉnh sửa'
+        topic:  'Cập nhật hồ sơ của bạn'
+        name: 'Họ và tên:'
+        mail: 'Email:'
+        password: 'Mật khẩu:'
+        password_confirmation:  'Xác nhận mật khẩu:'
+        save: 'Lưu thay đổi'
+        change: 'Thay đổi'
+  shared:
+    error_messages:
+        contains: 'Form chứa'
+        error:  'lỗi'
     
