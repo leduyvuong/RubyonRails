@@ -18,6 +18,8 @@ gem "i18n", "~> 1.8", ">= 1.8.10"
 gem "rails-i18n", "~> 6.0"
 gem 'will_paginate', '~> 3.3'
 gem 'bootstrap-will_paginate', '~> 1.0'
+gem 'figaro', '~> 1.2'
+gem 'dotenv-rails', '~> 2.7', '>= 2.7.6'
 group :development, :test do
   gem "byebug", platforms: [:mri, :mingw, :x64_mingw]
 end
