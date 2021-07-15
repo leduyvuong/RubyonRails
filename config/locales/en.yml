@@ -75,3 +75,7 @@ en:
     error_messages:
         contains: 'The form contains'
         error:  'error'
+  user_mailer:
+    account_activation:
+      content: 'Welcome to the Sample App! Click on the link below to activate your account:'
+      hi: 'Hi'
