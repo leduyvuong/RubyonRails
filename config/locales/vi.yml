@@ -60,6 +60,8 @@ vi:
         title:  'Đăng nhập'
         newuser:  'Bạn chưa có tài khoản?'
         signup: 'Đăng ký ngay!'
+        forgot: 'Quên mật khẩu?'
+        remember: 'Hãy nhớ tôi trên máy tính này'
     edit:
         title:  'Chỉnh sửa'
         topic:  'Cập nhật hồ sơ của bạn'
@@ -69,6 +71,9 @@ vi:
         password_confirmation:  'Xác nhận mật khẩu:'
         save: 'Lưu thay đổi'
         change: 'Thay đổi'
+  password_resets:
+    new:
+      title:  'Quên mật khẩu'  
   shared:
     error_messages:
         contains: 'Form chứa'
@@ -77,4 +82,16 @@ vi:
     account_activation:
       content: 'Chào mừng đến với Sample App! Click vào link dưới đây để xác thực tài khoản của bạn:'
       hi: 'Xin chào '
+    password_reset:
+      title:  'Đặt lại mật khẩu'
+      content1: 'Để đặt lại mật khẩu của bạn, hãy nhấp vào liên kết bên dưới:'
+      content2: 'Liên kết này sẽ hết hạn sau hai phút.
+                Nếu bạn không yêu cầu đặt lại mật khẩu của mình, vui lòng bỏ qua email này và
+                mật khẩu của bạn sẽ vẫn như cũ.'
+      content1_html:  '<p>Để đặt lại mật khẩu của bạn, hãy nhấp vào liên kết bên dưới:</p>'
+      content2_html:  '<p>Liên kết này sẽ hết hạn sau hai phút.</p>
+                      <p>
+                      Nếu bạn không yêu cầu đặt lại mật khẩu của mình, vui lòng bỏ qua email này và
+                      mật khẩu của bạn sẽ vẫn như cũ.
+                      </p>'
     
