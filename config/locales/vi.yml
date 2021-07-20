@@ -14,39 +14,30 @@ vi:
       news: 'Tin tức'
   static_pages:
     home:
-      title:  'Trang chủ'
+      title: 'Trang chủ'
       link: 
-      content_html:  '<p>
-                  Đây là trang chủ của <a href="https://www.railstutorial.org/"> Hướng dẫn về Ruby on Rails </a> ứng dụng mẫu.
-                </p>'
+      content:  
+        line1:  'Đây là trang chủ của' 
+        topic:  'Hướng dẫn về Ruby on Rails'
+        line2:  'ứng dụng mẫu.'
       signup: 'Đăng ký ngay!'
     about:
       title:  'Giới thiệu'
-      content_html:   '<p>
-                          <a href="https://www.railstutorial.org/"><em>Hướng dẫn về Ruby on Rails
-                          </em></a>, một phần của
-                          <a href="https://www.learnenough.com/">Learn Enough</a> , Đây là một
-                          <a href="https://www.railstutorial.org/book">book</a> và
-                          <a href="https://screencasts.railstutorial.org/">screencast series</a>
-                          dạy phát triển web với
-                          <a href="https://rubyonrails.org/">Ruby on Rails</a>.
-                          Đây là ứng dụng mẫu cho hướng dẫn.                          
-                      </p>'
+      content:   
+        line1:  'một phần của'
+        line2:  'Đây là một'
+        line3:  'và'
+        line4:  'dạy phát triển web với'
+        line5:  'Đây là ứng dụng mẫu cho hướng dẫn.'
     help:
       title: 'Trợ giúp'
-      content_html:   '<p>
-                        Nhận trợ giúp về Hướng dẫn Ruby on Rails tại
-                        <a href="https://www.railstutorial.org/help">Rails Tutorial Help page</a>.
-                        Để nhận trợ giúp về ứng dụng mẫu này, hãy xem
-                        <a href="https://www.railstutorial.org/book"><em>Ruby on Rails Tutorial</em>
-                        book</a>.
-                      </p>'
+      content:   
+        line1: 'Nhận trợ giúp về Hướng dẫn Ruby on Rails tại'
+        line2:  'Để nhận trợ giúp về ứng dụng mẫu này, hãy xem'
     contact:
       title:  'Liên hệ'
-      content_html: '<p>
-                      Liên hệ với Hướng dẫn Ruby on Rails về ứng dụng mẫu tại
-                      <a href="https://www.railstutorial.org/contact">contact page</a>.
-                    </p>'
+      content_html: 
+        line1: 'Liên hệ với Hướng dẫn Ruby on Rails về ứng dụng mẫu tại'
   users:
     signup:
       title:  'Đăng ký:'
@@ -89,9 +80,9 @@ vi:
                 Nếu bạn không yêu cầu đặt lại mật khẩu của mình, vui lòng bỏ qua email này và
                 mật khẩu của bạn sẽ vẫn như cũ.'
       content1_html:  '<p>Để đặt lại mật khẩu của bạn, hãy nhấp vào liên kết bên dưới:</p>'
-      content2_html:  '<p>Liên kết này sẽ hết hạn sau hai phút.</p>
-                      <p>
-                      Nếu bạn không yêu cầu đặt lại mật khẩu của mình, vui lòng bỏ qua email này và
-                      mật khẩu của bạn sẽ vẫn như cũ.
-                      </p>'
+      content2_html:  
+        line1: 'Liên kết này sẽ hết hạn sau hai phút.'
+        line2: 'Nếu bạn không yêu cầu đặt lại mật khẩu của mình, vui lòng bỏ qua email này và
+                mật khẩu của bạn sẽ vẫn như cũ.'
+                  
     

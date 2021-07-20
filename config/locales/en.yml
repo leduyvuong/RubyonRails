@@ -15,41 +15,28 @@ en:
   static_pages:
     home:
       title:  'Home'
-      content_html:   '<p>
-                        This is the home page for the
-                        <a href="https://www.railstutorial.org/">Ruby on Rails Tutorial</a>
-                        sample application.
-                      </p>'
+      content:   
+        line1:  'This is the home page for the' 
+        topic:  ' Ruby on Rails Tutorial '
+        line2:  ' sample application.'
       signup: 'Sign up now!'
     about:
       title:  'About'
-      content_html:   '<p>
-                          The <a href="https://www.railstutorial.org/"><em>Ruby on Rails
-                          Tutorial</em></a>, part of the
-                          <a href="https://www.learnenough.com/">Learn Enough</a> family of
-                          tutorials, is a
-                          <a href="https://www.railstutorial.org/book">book</a> and
-                          <a href="https://screencasts.railstutorial.org/">screencast series</a>
-                          to teach web development with
-                          <a href="https://rubyonrails.org/">Ruby on Rails</a>.
-                          This is the sample app for the tutorial.
-                          
-                      </p>'
+      content:   
+        line1:  'part of the'
+        line2:  'family of tutorials, is a'
+        line3:  'and'
+        line4:  'to teach web development with'
+        line5:  'This is the sample app for the tutorial.'
     help:
       title: 'Help'
-      content_html: '<p>
-                      Get help on the Ruby on Rails Tutorial at the
-                      <a href="https://www.railstutorial.org/help">Rails Tutorial Help page</a>.
-                      To get help on this sample app, see the
-                      <a href="https://www.railstutorial.org/book"><em>Ruby on Rails Tutorial</em>
-                      book</a>.
-                    </p>'
+      content_html: 
+        line1: 'Get help on the Ruby on Rails Tutorial at the'
+        line2:  'To get help on this sample app, see the'
     contact:
       title:  'Contact'
-      content_html: '<p>
-                      Contact the Ruby on Rails Tutorial about the sample app at the
-                      <a href="https://www.railstutorial.org/contact">contact page</a>.
-                    </p>'
+      content_html: 
+        line1: 'Contact the Ruby on Rails Tutorial about the sample app at the'
   users:
     signup:
       title:  'Sign up'
