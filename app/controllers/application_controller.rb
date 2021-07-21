@@ -14,6 +14,7 @@ class ApplicationController < ActionController::Base
         if I18n.available_locales.map(&:to_s).include?(parsed_locale) 
           parsed_locale 
         else nil
+        end
       end
       def hello
         render html: "hello, world!"
@@ -21,7 +22,7 @@ class ApplicationController < ActionController::Base
       def logged_in_user
         unless logged_in?
             store_location
-            flash[:danger] = "Please log in."
+            flash[:danger] = t('static_pages.home.danger')
             redirect_to login_url
         end
       end

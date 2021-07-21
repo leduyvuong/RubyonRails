@@ -8,6 +8,12 @@ en:
       profile:  'Profile'
       settings: 'Settings'
       logout: 'Log out'
+      users:  'Users'
+      account:  'Account'
+      profile:  'Profile'
+      settings: 'Settings'
+      logout: 'Log out'
+      base_title: 'Ruby on Rails Tutorial Sample App'
     footer:
       about:  'About'
       contact:  'Contact'
@@ -21,6 +27,9 @@ en:
                         sample application.
                       </p>'
       signup: 'Sign up now!'
+      info: 'Please check your email to activate your account.'
+      update_pf:  'Profile updated'
+      danger: 'Please log in.'
     about:
       title:  'About'
       content_html:   '<p>
@@ -73,6 +82,10 @@ en:
         password_confirmation:  'Password Confirmation:'
         save: 'Save changes'
         change: 'Change'
+    index:
+        title:  'All users'
+        destroy_S:  'User deleted'
+        destroy_F:  'Delete fail'
   password_resets:
     new:
       title:  'Forgot password'     

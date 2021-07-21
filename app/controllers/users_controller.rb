@@ -2,11 +2,20 @@ class UsersController < ApplicationController
   before_action :logged_in_user, only: [:edit, :update, :index]
   before_action :correct_user, only: [:edit, :update]
   before_action :admin_user, only: :destroy
+  before_action :find_user, only: [:show, :edit, :update, :destroy]
   def index
     @users = User.where(activated: true).paginate(page: params[:page])   
   end
+  def find_user
+    @user = User.find(params[:id]) 
+    if @user
+      return @user
+    else
+      flash[:danger] = t('static_pages.home.danger')
+      return root_url
+    end
+  end
   def show
-    @user = User.find(params[:id])  
     @microposts = @user.microposts.paginate(page: params[:page])
     redirect_to root_url and return unless @user.activate == true   
   end
@@ -17,28 +26,31 @@ class UsersController < ApplicationController
     @user = User.new(user_params) # Not the final implementation!
     if @user.save
       @user.send_activation_email
-      flash[:info] = "Please check your email to activate your account."
+      flash[:info] = t('static_pages.home.info')
       redirect_to root_url
     else
       render 'new'
     end
   end
   def edit
-    @user = User.find(params[:id])
+    
   end
   def update
-    @user = User.find(params[:id])
     if @user.update(user_params)
-      flash[:success] = "Profile updated"
+      flash[:success] = t('static_pages.home.update_pf')
       redirect_to @user
     else
       render 'edit'
     end
   end
   def destroy
-    User.find(params[:id]).destroy
-    flash[:success] = "User deleted"
-    redirect_to users_url
+    if @user.destroy
+      flash[:success] = t('users.index.destroy_S')
+      redirect_to users_url
+    else 
+      flash[:success] = t('users.index.destroy_F')
+      redirect_to users_url
+    end 
   end
   
   private
