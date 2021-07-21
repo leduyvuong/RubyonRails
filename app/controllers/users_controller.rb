@@ -1,12 +1,17 @@
 class UsersController < ApplicationController
   def show
     @user = User.find(params[:id])   
+    if @user
+      return @user
+    else
+      flash[:danger] = t("users.show.danger")
+    end
   end
   def new
     @user = User.new
   end
   def create
-    @user = User.new(user_params) # Not the final implementation!
+    @user = User.new(user_params) 
     if @user.save
       flash[:success] = "Welcome to the Sample App!"
       redirect_to @user

@@ -45,4 +45,6 @@ en:
       password: 'Password:'
       password_confirmation:  'Password Confirmation:'
       submit: 'Create my account'
+    show:
+        danger: 'Please log in'
       
