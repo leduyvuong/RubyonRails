@@ -1,3 +1,6 @@
 <% provide(:title, t('.title'))%>
 <h1>Sample App</h1>
-<%= t '.content_html'%>
+<p><%= t 'static_pages.home.content.line1'%><a href="https://www.railstutorial.org/"><%= t 'static_pages.home.content.topic'%></a>
+  <%= t 'static_pages.home.content.line2'%>
+</p>
+<%= link_to t('static_pages.home.signup'), signup_path, class: "btn btn-lg btn-primary" %>
