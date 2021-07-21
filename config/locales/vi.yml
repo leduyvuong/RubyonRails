@@ -88,10 +88,10 @@ vi:
       content2: 'Liên kết này sẽ hết hạn sau hai phút.
                 Nếu bạn không yêu cầu đặt lại mật khẩu của mình, vui lòng bỏ qua email này và
                 mật khẩu của bạn sẽ vẫn như cũ.'
-      content1_html:  '<p>Để đặt lại mật khẩu của bạn, hãy nhấp vào liên kết bên dưới:</p>'
-      content2_html:  '<p>Liên kết này sẽ hết hạn sau hai phút.</p>
-                      <p>
-                      Nếu bạn không yêu cầu đặt lại mật khẩu của mình, vui lòng bỏ qua email này và
-                      mật khẩu của bạn sẽ vẫn như cũ.
-                      </p>'
+      content1_html:  'Để đặt lại mật khẩu của bạn, hãy nhấp vào liên kết bên dưới:'
+      content2_html:  
+        line1: 'Liên kết này sẽ hết hạn sau hai phút.'
+        line2:  'Nếu bạn không yêu cầu đặt lại mật khẩu của mình, vui lòng bỏ qua email này và
+                      mật khẩu của bạn sẽ vẫn như cũ.'
+                      '
     
