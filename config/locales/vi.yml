@@ -8,6 +8,12 @@ vi:
       profile:  'Hồ sơ'
       settings: 'Cài đặt'
       logout: 'Đăng xuất'
+      users:  'Người dùng'
+      account:  'Tài khoản'
+      profile:  'Hồ sơ'
+      settings: 'Cài đặt'
+      logout: 'Đăng xuất'
+      base_title: 'Khóa học Ruby on Rails'
     footer:
       about:  'Giới thiệu'
       contact:  'Liên hệ'
@@ -20,6 +26,9 @@ vi:
                   Đây là trang chủ của <a href="https://www.railstutorial.org/"> Hướng dẫn về Ruby on Rails </a> ứng dụng mẫu.
                 </p>'
       signup: 'Đăng ký ngay!'
+      info: 'Hãy kiểm tra email của bạn để kích hoạt tài khoản của bạn.'
+      update_pf:  'Cập nhật hồ sơ thành công'
+      danger: 'Vui lòng đăng nhập.'
     about:
       title:  'Giới thiệu'
       content_html:   '<p>
@@ -69,6 +78,10 @@ vi:
         password_confirmation:  'Xác nhận mật khẩu:'
         save: 'Lưu thay đổi'
         change: 'Thay đổi'
+    index:
+        title:  'Tất cả người dùng'
+        destroy_S:  'Đã xóa người dùng.'
+        destroy_F:  'Xóa người dùng thất bại.'
   shared:
     error_messages:
         contains: 'Form chứa'
