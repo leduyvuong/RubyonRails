@@ -35,4 +35,14 @@ vi:
                       Liên hệ với Hướng dẫn Ruby on Rails về ứng dụng mẫu tại
                       <a href="https://www.railstutorial.org/contact">contact page</a>.
                     </p>'
-    
+  users:
+    signup:
+      title:  'Đăng ký:'
+      name: 'Họ và tên:'
+      mail: 'Email:'
+      password: 'Mật khẩu:'
+      password_confirmation:  'Xác nhận mật khẩu:'
+      submit: 'Tạo tài khoản'
+      wellcome: 'Chào mừng đến với Sample App'
+    show:
+      danger: 'Vui lòng đăng nhập'
