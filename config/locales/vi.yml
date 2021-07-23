@@ -94,4 +94,11 @@ vi:
                       Nếu bạn không yêu cầu đặt lại mật khẩu của mình, vui lòng bỏ qua email này và
                       mật khẩu của bạn sẽ vẫn như cũ.
                       </p>'
+  labelw:
+    next_label: 'Trang sau'
+    prev_label: 'Trang trước'
+  microposts:
+    micropost:  
+      posted: 'Đã đăng bài'
+      ago:  'trước.'
     

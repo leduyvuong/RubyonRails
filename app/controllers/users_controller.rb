@@ -16,10 +16,11 @@ class UsersController < ApplicationController
   def find_user
     @user = User.find(params[:id])
     if @user
+      return @user
+    else
+      
       flash[:danger] = "Please log in."
       redirect_to login_url
-    else
-      return @user
     end
   end
   def create

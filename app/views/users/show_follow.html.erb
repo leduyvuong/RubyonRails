@@ -24,7 +24,7 @@
       <ul class="users follow">
       <%= render @users %>
       </ul>
-      <%= will_paginate %>
+      <%= will_paginate :previous_label => t("labelw.prev_label"), :next_label => t("labelw.next_label")%>
     <% end %>
   </div>
 </div>
