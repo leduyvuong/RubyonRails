@@ -8,6 +8,8 @@ en:
       profile:  'Profile'
       settings: 'Settings'
       logout: 'Log out'
+      base_title: 'Ruby on Rails Tutorial Sample App'
+      
     footer:
       about:  'About'
       contact:  'Contact'
@@ -21,6 +23,9 @@ en:
                         sample application.
                       </p>'
       signup: 'Sign up now!'
+      info: 'Please check your email to activate your account.'
+      update_pf:  'Profile updated'
+      danger: 'Please log in.'
     about:
       title:  'About'
       content_html:   '<p>
@@ -52,12 +57,30 @@ en:
                     </p>'
   users:
     signup:
-      title:  'Sign Up'
+      title:  'Sign up'
       name: 'Name:'
       mail: 'Email:'
       password: 'Password:'
       password_confirmation:  'Password Confirmation:'
       submit: 'Create my account'
-    show:
-        danger: 'Please log in'
-      
+    login:
+        title:  'Log In'
+        newuser:  'New user?'
+        signup: 'Sign up now!'
+    edit:
+        title:  'Edit user'
+        topic:  'Update your profile'
+        name: 'Name:'
+        mail: 'Email:'
+        password: 'Password:'
+        password_confirmation:  'Password Confirmation:'
+        save: 'Save changes'
+        change: 'Change'
+    index:
+        title:  'All users'
+        destroy_S:  'User deleted'
+        destroy_F:  'Delete fail'
+  shared:
+    error_messages:
+        contains: 'The form contains'
+        error:  'error'
