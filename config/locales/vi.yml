@@ -1,5 +1,17 @@
 vi:
-  
+  layout:
+    header:
+      home: 'Trang chủ'
+      help: 'Trợ giúp'
+      login:  'Đăng nhập'
+      account:  'Tài khoản'
+      profile:  'Hồ sơ'
+      settings: 'Cài đặt'
+      logout: 'Đăng xuất'
+    footer:
+      about:  'Giới thiệu'
+      contact:  'Liên hệ'
+      news: 'Tin tức'
   static_pages:
     home:
       title:  'Trang chủ'
@@ -35,4 +47,17 @@ vi:
                       Liên hệ với Hướng dẫn Ruby on Rails về ứng dụng mẫu tại
                       <a href="https://www.railstutorial.org/contact">contact page</a>.
                     </p>'
+  users:
+    signup:
+      title:  'Đăng ký:'
+      name: 'Họ và tên:'
+      mail: 'Email:'
+      password: 'Mật khẩu:'
+      password_confirmation:  'Xác nhận mật khẩu:'
+      submit: 'Tạo tài khoản'
+      wellcome: 'Chào mừng đến với Sample App'
+    login:
+        title:  'Đăng nhập'
+        newuser:  'Bạn chưa có tài khoản?'
+        signup: 'Đăng ký ngay!'
     

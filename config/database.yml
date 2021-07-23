@@ -53,3 +53,4 @@ production:
   database: rails
   username: vuong1
   password: 123456
+
