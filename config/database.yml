@@ -1,3 +1,4 @@
+  
 # MySQL. Versions 5.5.8 and up are supported.
 #
 # Install the MySQL driver
@@ -10,12 +11,14 @@
 #   https://dev.mysql.com/doc/refman/5.7/en/password-hashing.html
 #
 default: &default
-  adapter: mysql2
-  encoding: utf8mb4
+  adapter: postgresql
+  encoding: unicode
+  # For details on connection pooling, see Rails configuration guide
+  # https://guides.rubyonrails.org/configuring.html#database-pooling
   pool: <%= ENV.fetch("RAILS_MAX_THREADS") { 5 } %>
-  username: <%= ENV['DB_NAME'] %>
-  password:  <%= ENV['DB_PASSWORD'] %>
-  host: localhost
+  database: dd3qv6pa6kfv9g
+  username: owsnvwtlgiwere
+  password:  <%= ENV['DATABASE_PASSWORD'] %>
 
 development:
   <<: *default
@@ -49,6 +52,10 @@ test:
 # for a full overview on how database connection configuration can be specified.
 #
 production:
+<<<<<<< HEAD
+=======
+  <<: *default
+>>>>>>> following-users
   adapter: postgresql
   encoding: unicode
   # For details on connection pooling, see Rails configuration guide
@@ -56,5 +63,9 @@ production:
   pool: <%= ENV.fetch("RAILS_MAX_THREADS") { 5 } %>
   database: dd3qv6pa6kfv9g
   username: owsnvwtlgiwere
+<<<<<<< HEAD
   password: 5432
 
+=======
+  password:  <%= ENV['DATABASE_PASSWORD'] %>
+>>>>>>> following-users
