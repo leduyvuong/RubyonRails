@@ -56,8 +56,5 @@ vi:
       password_confirmation:  'Xác nhận mật khẩu:'
       submit: 'Tạo tài khoản'
       wellcome: 'Chào mừng đến với Sample App'
-    login:
-        title:  'Đăng nhập'
-        newuser:  'Bạn chưa có tài khoản?'
-        signup: 'Đăng ký ngay!'
-    
+    show:
+      danger: 'Vui lòng đăng nhập'
