@@ -108,9 +108,9 @@ en:
       content2: 'This link will expire in two minutes.
                 If you did not request your password to be reset, please ignore this email and
                 your password will stay as it is.'
-      content1_html:  '<p>To reset your password click the link below:</p>'
-      content2_html:  '<p>This link will expire in two minutes.</p>
-                      <p>
-                      If you did not request your password to be reset, please ignore this email and
-                      your password will stay as it is.
-                      </p>'
+      content1_html:  'To reset your password click the link below:'
+      content2_html:  
+        line1:  'This link will expire in two minutes.'
+        line2:  'If you did not request your password to be reset, please ignore this email and
+                      your password will stay as it is.'              
+                     
