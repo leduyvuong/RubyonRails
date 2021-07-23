@@ -52,7 +52,7 @@ en:
                     </p>'
   users:
     signup:
-      title:  'Sign Up'
+      title:  'Sign up'
       name: 'Name:'
       mail: 'Email:'
       password: 'Password:'
