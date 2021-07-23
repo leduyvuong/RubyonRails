@@ -8,8 +8,17 @@ en:
       profile:  'Profile'
       settings: 'Settings'
       logout: 'Log out'
+<<<<<<< HEAD
       base_title: 'Ruby on Rails Tutorial Sample App'
       
+=======
+      users:  'Users'
+      account:  'Account'
+      profile:  'Profile'
+      settings: 'Settings'
+      logout: 'Log out'
+      base_title: 'Ruby on Rails Tutorial Sample App'
+>>>>>>> user-microposts
     footer:
       about:  'About'
       contact:  'Contact'
@@ -67,6 +76,8 @@ en:
         title:  'Log In'
         newuser:  'New user?'
         signup: 'Sign up now!'
+        forgot: 'Forgot password?'
+        remember: 'Remember me on this computer'
     edit:
         title:  'Edit user'
         topic:  'Update your profile'
@@ -80,6 +91,9 @@ en:
         title:  'All users'
         destroy_S:  'User deleted'
         destroy_F:  'Delete fail'
+  password_resets:
+    new:
+      title:  'Forgot password'     
   shared:
     error_messages:
         contains: 'The form contains'
@@ -88,3 +102,15 @@ en:
     account_activation:
       content: 'Welcome to the Sample App! Click on the link below to activate your account:'
       hi: 'Hi'
+    password_reset:
+      title:  'Reset password'
+      content1: 'To reset your password click the link below:'
+      content2: 'This link will expire in two minutes.
+                If you did not request your password to be reset, please ignore this email and
+                your password will stay as it is.'
+      content1_html:  '<p>To reset your password click the link below:</p>'
+      content2_html:  '<p>This link will expire in two minutes.</p>
+                      <p>
+                      If you did not request your password to be reset, please ignore this email and
+                      your password will stay as it is.
+                      </p>'

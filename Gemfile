@@ -20,6 +20,9 @@ gem 'will_paginate', '~> 3.3'
 gem 'bootstrap-will_paginate', '~> 1.0'
 gem 'figaro', '~> 1.2'
 gem 'dotenv-rails', '~> 2.7', '>= 2.7.6'
+gem 'active_storage_validations', '~> 0.9.5'
+gem 'image_processing', '~> 1.12', '>= 1.12.1'
+gem 'mini_magick', '~> 4.11'
 group :development, :test do
   gem "byebug", platforms: [:mri, :mingw, :x64_mingw]
 end
@@ -33,6 +36,7 @@ group :development do
 end
 group :production do
   gem "pg", "1.2.3"
+  gem 'aws-sdk-s3', '~> 1.96', '>= 1.96.1'
 end
 group :test do
   gem "capybara",                   ">= 3.26" 
